@@ -10,6 +10,7 @@ class Ast < Formula
 
   def install
     bin.install "ast"
+    bin.install "ast-hook"
   end
 
   test do
