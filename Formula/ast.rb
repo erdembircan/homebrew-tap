@@ -1,9 +1,9 @@
 class Ast < Formula
   desc "CLI tool that tracks AI model performance (Claude, OpenAI)"
   homepage "https://github.com/erdembircan/ai-stupidity-tracker"
-  url "https://github.com/erdembircan/ai-stupidity-tracker/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "a6a7fb2916d694729e27f5f3bb560f6b8aebde2e0aaf540f66f3f40ce29b6ce8"
-  license "MIT"
+  url "https://github.com/erdembircan/ai-stupidity-tracker/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "39b34ccc62531e2d62eb3b9718744048698faac169f03632f7a32db56b047c96"
+  license "Apache-2.0"
   head "https://github.com/erdembircan/ai-stupidity-tracker.git", branch: "master"
 
   depends_on "jq"
